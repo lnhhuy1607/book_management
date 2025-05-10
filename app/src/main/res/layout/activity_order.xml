@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nhập tên khách hàng -->
+    <EditText
+        android:id="@+id/etCustomerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+    android:hint="Nhập tên khách hàng" />
+
+    <!-- Nhập ID sách -->
+    <EditText
+        android:id="@+id/etBookId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mã sách"
+        android:layout_marginTop="8dp"
+        android:inputType="number"/>
+
+    <!-- Nhập số lượng sách -->
+    <EditText
+        android:id="@+id/etQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:hint="Nhập số lượng"
+        android:inputType="number"/>
+
+    <!-- Nút thêm vào giỏ hàng -->
+    <Button
+        android:id="@+id/btnAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_hover"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+    android:text="Thêm vào giỏ hàng" />
+
+    <!-- Nút đặt hàng -->
+    <Button
+        android:id="@+id/btnPlaceOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_hover"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+
+    android:text="Đặt hàng" />
+</LinearLayout>
